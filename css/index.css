@@ -1,0 +1,179 @@
+.header {
+height: 1.2rem;
+background-color: rgba(167,213,234,0.2);
+overflow: hidden;
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+}
+.saoma {
+	height: 0.64rem;
+	width: 0.64rem;
+	background: url(../img/saoma.png) 0  0  no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+	margin: 0.266667rem 0 0 0.4rem;
+}
+
+.search-box {
+	height: 0.8rem;
+	width: 56%;
+	border-radius: 0.266667rem;
+	text-align: center;
+	background: rgba(0,0,0,.2) url(../img/search.png) 0.2rem center no-repeat;
+	-webkit-background-size: 0.48rem 0.506667rem;
+	background-size: 0.48rem 0.506667rem;
+	color: white;
+	line-height: 0.8rem;
+	margin-left:-28%;
+	margin-top: 0.186667rem;
+	position: absolute;
+	left: 50%;
+}
+.msg{
+	width: 0.613333rem;
+	height: 0.613333rem;
+	background: url(../img/msg.png) center center no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+	margin: 0.293333rem 0.4rem 0 0.293333rem;
+}
+.shoap-car{
+	width: 0.613333rem;
+	height: 0.613333rem;
+	background:url(../img/cart.png) center center no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+	margin-top: 0.293333rem;
+	position: relative;
+}
+.shoap-car>span{
+	position: absolute;
+	width: 0.32rem;
+	height: 0.32rem;
+	top: -0.16rem;
+	right: -0.16rem;
+	background-color: #fd3422;
+	border-radius: 50%;
+	line-height: 0.32rem;
+	text-align: center;
+	font-size: 12px;
+	color: #fff;
+}
+/*SASS*/
+[data-dpr="2"] .shoap-car>span {
+	font-size: 20px;
+}
+[data-dpr="3"] .shoap-car>span {
+	font-size: 30px;
+}
+.nav {
+	height: 1.333333rem;
+	box-sizing:border-box;
+	border-top: 1px solid #bfbec3;
+	background-color: #fff;
+	position: fixed;
+	left: 0;
+	bottom: 0;	
+	width: 100%;
+}
+.nav-item{
+	float:left;
+	width: 20%;
+	height: 100%;
+}
+.nav-item.active>p {
+	color: #ffc600;
+}
+.nav-item>p {
+	text-align: center;
+	color: #989898;
+	line-height: 0.45rem;
+}
+.home,.cate,.corp,.qian,.me{
+	width: 0.666667rem;
+	height: 0.666667rem;
+	margin: 0.16rem auto 0;
+}
+.home{
+		background: url(../img/icon-house-s.png) 0 0 no-repeat;
+		-webkit-background-size: contain;
+		background-size: contain;
+}
+
+
+.cate {
+	background: url(../img/icon-cate.png) 0 0 no-repeat;
+	-webkit-background-size: contain;
+		background-size: contain;
+}
+.corp {
+	background: url(../img/icon-corp.png) 0 0 no-repeat;
+	-webkit-background-size: contain;
+		background-size: contain;
+}
+.qian {
+	background: url(../img/icon-treasure.png) 0 0 no-repeat;
+	-webkit-background-size: contain;
+		background-size: contain;
+}
+.me{
+	background: url(../img/icon-me.png) 0 0 no-repeat;
+	-webkit-background-size: contain;
+		background-size: contain;
+}
+.banner{
+	height: 6.106667rem
+}
+.banner img{
+	width: 10rem;
+}
+.banner>a{
+	font-size: 0;
+}
+/*内容盒子*/
+.content-box{
+	top:0;
+	left: 0;
+	bottom: 1.333333rem;
+	right: 0;
+	overflow-y:auto;
+	background-color: #f0eff5;
+}
+.p-list-box{
+	height: 4.506667rem;
+	background-color: #fff;
+	margin-bottom: 0.266667rem;
+}
+.p-list-tittle{
+	background:  url(../img/tag.png) 0.4rem 
+				0.373333rem/1.866667rem 0.533333rem  no-repeat;
+	height: 1.2rem;
+}
+.more{
+	float: right;
+	background:  url(../img/more.png) 0 0/contain no-repeat;
+	width: 1.2rem;
+	height: 0.506667rem;
+	margin: 0.453333rem 0.4rem 0 0;
+}
+.p-list{
+	height: 3.306667rem;
+	overflow-x:auto;
+	overflow-y:hidden;  
+
+}
+.p-list-item{
+	width: 2.8rem;
+	height: 2.8rem;
+	text-align: center;
+	float: left;
+}
+.p-list-item>p{
+	margin-top:1.8rem;
+}
+.container{
+	width: 14.0rem;
+	overflow: hidden;
+}
